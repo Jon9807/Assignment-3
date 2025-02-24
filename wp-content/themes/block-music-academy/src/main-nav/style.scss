@@ -1,0 +1,58 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+// .wp-block-custom-blocks-main-nav {
+// 	background-color: #21759b;
+// 	color: #fff;
+// 	padding: 2px;
+// }
+
+
+.hero-section {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #ffffff;
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .cta-button {
+        margin-top: 20px;
+
+        .wp-block-button__link {
+            background: #f4a261;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s;
+
+            &:hover {
+                background: #e76f51;
+            }
+        }
+    }
+}
+
+.instructors-section,
+.testimonials-section {
+    padding: 40px 20px;
+    text-align: center;
+
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .wp-block-query {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+}

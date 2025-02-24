@@ -1,0 +1,11 @@
+/**.*
+
+!.gitignore
+
+/wp-admin
+
+/wp-includes
+
+/wp-content/up**
+
+/wp-content/themes/twenty**
