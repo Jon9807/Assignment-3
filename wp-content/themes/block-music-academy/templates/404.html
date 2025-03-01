@@ -1,11 +1,17 @@
-<!-- wp:template-part {"slug":"header"} /-->
+<!-- wp:template-part {"slug":"header","theme":"block-music-academy"} /-->
 
 <!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"default"}} -->
-<main class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50); padding-bottom:var(--wp--preset--spacing--50); text-align: center;">
+<main class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:paragraph -->
+<p>It seems you've hit a wrong note. Let's get you back to the music.</p>
+<!-- /wp:paragraph -->
 
-	<h1>Oops! Looks like you're off-key!</h1>
-
-</main>
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons"><!-- wp:button {"textAlign":"center"} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-text-align-center wp-element-button" href="/">Return to Home</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></main>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer"} /-->
+<!-- wp:template-part {"slug":"footer","theme":"block-music-academy"} /-->
+
+</main>
